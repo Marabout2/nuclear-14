@@ -455,6 +455,19 @@
   - type: PresetIdCard
     job: NCRExecutiveOfficer
 
+  - type: entity
+  parent: N14IDNCRDogtag
+  id: MisfitNCRDogtagLTCOL
+  name: Lieutenant Colonel's dogtags
+  description: An ID dogtag worn by high ranking members of the NCR.
+  suffix: Lieutenant Colonel
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/identification.rsi
+    state: ncrdogtag
+  - type: PresetIdCard
+    job: NCRLTCOL
+
 #MARK: Desert Rangers
 - type: entity
   parent: N14IDNCRDogtag

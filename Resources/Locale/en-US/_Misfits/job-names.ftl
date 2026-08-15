@@ -2,6 +2,9 @@
 job-name-ncr-heavy-trooper = NCR Heavy Trooper
 job-description-ncr-heavy-trooper = You are the NCR's walking artillery. Strapped into a salvaged T-45 suit and armed with an LMG, your job is simple: hold the line and lay down fire until there is nothing left standing.
 
+job-name-ncr-ltcol = NCR Lieutenant Colonel
+job-description-ncr-ltcol = You are the Colonel's right hand man. Act accordingly.
+
 # #Misfits Add - NCR role rehaul: new role-based job locale strings.
 job-name-ncr-commander = NCR Commander
 job-description-ncr-commander = You command the NCR detachment. Set operational priorities, direct your officers, and answer only to high command. Your rank runs from Captain to Major as your service record grows.

@@ -109,6 +109,14 @@
   - type: Pda
     id: N14IDNCRDogtagCaptain
 
+- type: entity
+  parent: N14BasePipboy
+  id: MisfitNCRLTCOLPipboy
+  suffix: NCR Lieutenant Colonel
+  components:
+  - type: Pda
+    id: MisfitNCRDogtagLTCOL
+
 # #Misfits Add - Wastelander Pip-Boy with pre-inserted dogtags for PipBoy Hub networking.
 - type: entity
   parent: N14BasePipboy

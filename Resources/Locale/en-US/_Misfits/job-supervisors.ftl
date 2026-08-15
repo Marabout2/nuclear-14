@@ -1,4 +1,5 @@
 # #Misfits Add - NCR role rehaul supervisor strings.
+job-supervisors-ncr-ltcol = the colonel and those above him in the chain of command
 job-supervisors-ncr-commander = NCR high command and your mission
 job-supervisors-ncr-nco = the NCR officers and your chain of command
 

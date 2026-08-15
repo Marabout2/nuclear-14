@@ -1,0 +1,63 @@
+ type: job
+  id: NCRLTCOL
+  setPreference: true
+  hideWithoutJobWhitelist: true
+  hideIfPlaytimeRequirementsNotMet: false
+  jobWhitelistBypassesRoleTimers: true
+  overrideConsoleVisibility: false
+  canBeAntag: true
+  name: job-name-ncr-ltcol
+  overwatchCategory: OverwatchNcrOfficers
+  description: job-description-ncr-ltcol
+  playTimeTracker: NCRLTCOL
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+      - Human
+      - Ghoul
+    - !type:CharacterDepartmentTimeRequirement # T7 faction timelock (40h NCR)
+      department: NCR
+      min: 144000 # 40 hours
+  weight: 120
+  startingGear: NCRLTCOLgear
+  icon: "JobIconNcrLeader"
+  supervisors: job-supervisors-ncr-ltcol
+  requireAdminNotify: true
+  alwaysUseSpawner: true
+  access:
+  - NCR
+  - NCRSGT
+  - NCRMedic
+  - NCRLT
+  - NCRCaptain
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Wastelander
+          - NCR
+
+- type: startingGear
+  id: NCRLTCOLgear
+  equipment:
+    head: N14ClothingHeadHatNCRBeretOfficer
+    back: N14ClothingBackpackNCR
+    jumpsuit: N14ClothingOfficerUniformNCRDesert
+    outerClothing: MisfitsClothingOuterNCRTrenchCoat
+    shoes: N14ClothingBootsCombatFilled
+    belt: ClothingBeltNCR
+    eyes: ClothingEyesGlassesSunglasses
+    ears: N14ClothingHeadsetNCR
+    pocket1: NCRcaptainloadoutkits
+    id: MisfitNCRLTCOLPipboy
+  innerClothingSkirt: N14ClothingOfficerUniformNCRDesert
+  satchel: N14ClothingBackpackSatchelNCRFilled
+  storage:
+    back:
+    - N14BoxPlasticFilledMilitaryNCR
+    - SyndicateWhistle
+    - N14Binoculars
+
+- type: playTimeTracker
+  id: NCRLTCOL

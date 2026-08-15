@@ -71,6 +71,7 @@
   uiCategory: MajorFaction
   roles:
   # Command Officers (Captain/Major pins) — repurposed from NCRCaptain
+  - NCRLTCOL             # NCR Lieutenant Colonel  | _Misfits\Roles\Jobs\NCR\ncr_ltcol.yml
   - NCRCommander         # NCR Commander           | _Misfits/Roles/Jobs/NCR/ncr_captain.yml
   - NCRDoctor            # NCR Medical Doctor      | _Misfits/Roles/Jobs/NCR/ncr_doctor.yml
   # Junior Officers (2LT/1LT pins) — repurposed from NCRLT
