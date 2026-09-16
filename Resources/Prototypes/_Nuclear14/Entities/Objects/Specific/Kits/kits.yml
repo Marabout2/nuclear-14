@@ -487,7 +487,7 @@
       # #Misfits Fix - Added grenade rifle + 40mm rounds so the Grenadier kit actually has a primary weapon
       - id: N14WeaponRifleGrenade
       - id: 40mmGrenadeFrag
-        amount: 5
+        amount: 7
       - id: SmokeGrenade
       - id: N14WeaponSMG12mm
       - id: N14MagazineSMG12mm
