@@ -11685,3 +11685,70 @@ Entries:
   id: 6444
   time: '2026-09-16T01:56:50.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1922
+- author: Enkidienne
+  changes:
+    - type: Tweak
+      message: MPs get NCR loadout access
+  id: 6445
+  time: '2026-09-16T12:49:42.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1929
+- author: Tytos
+  changes:
+    - type: Fix
+      message: Fixed spa not spawning on praefectus
+  id: 6446
+  time: '2026-09-16T20:17:38.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1933
+- author: Vixting
+  changes:
+    - type: Fix
+      message: 'fix some bounty requests not getting recognized '
+  id: 6447
+  time: '2026-09-16T20:17:52.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1931
+- author: ToasterEnjoyer
+  changes:
+    - type: Add
+      message: 'Mutants get free clothes now '
+  id: 6448
+  time: '2026-09-18T21:04:07.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1919
+- author: Enkidienne
+  changes:
+    - type: Add
+      message: bibbles
+  id: 6449
+  time: '2026-09-18T21:05:04.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1928
+- author: RedBookcase
+  changes:
+    - type: Remove
+      message: Removed Tribunus and Praefectus roles
+    - type: Remove
+      message: Removed Legion HAR kit & ammo BP
+  id: 6450
+  time: '2026-09-18T21:06:54.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1935
+- author: qevie
+  changes:
+    - type: Tweak
+      message: >-
+        Spoon has gotten a spiffy new bandana! Credits to enchantedcrocolisk for
+        the sprite.
+  id: 6451
+  time: '2026-09-18T21:09:34.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1932
+- author: Enkidienne
+  changes:
+    - type: Tweak
+      message: C27 can be customized
+  id: 6452
+  time: '2026-09-18T21:14:33.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1939
+- author: aftemath434
+  changes:
+    - type: Add
+      message: medieval armor sets
+  id: 6453
+  time: '2026-09-18T21:29:24.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1938
